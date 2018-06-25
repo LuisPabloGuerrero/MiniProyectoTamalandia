@@ -1,0 +1,35 @@
+.imagen-fluida
+{
+    width:100%;
+}
+.paddingleft
+{
+    padding-left: 50px;
+}
+.background
+{
+    background-color: #dac292;
+}
+
+footer{
+    color: white;
+  }
+  footer a{
+    color: #bfffff;
+  }
+  footer a:hover{
+    color: white;
+  }
+  
+  .footer-bottom{
+    background: #343a40;
+    padding: 2em;
+  }
+  .footer-top{
+    background: #343a40;
+  }
+  .footer-middle{
+     background: #343a40;
+    padding-top: 2em;
+    color: white;
+  }

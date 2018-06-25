@@ -1,0 +1,31 @@
+
+<div class="container-fluid background">
+    <div clas="row">
+       <div class="col-md-12">
+        <h3>Tamalandia</h3>
+        <h5>La casa del tamal feliz</h5>
+       </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-hover table-striped">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Relleno</th>
+                    <th scope="col">Precio</th>
+                  </tr>
+                </thead>
+                <tbody *ngFor="let Tamal of CatalogoTamalesComponent; let i = index">
+                  <tr >
+                    <th scope="row">{{i+1}}</th>
+                    <td >{{Tamal.Nombre}}</td>
+                    <td ng-click="Redirect()">{{Tamal.Relleno}}</td>
+                    <td> {{Tamal.Precio}}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
